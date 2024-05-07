@@ -1,0 +1,174 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('back2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: #333;
+    font-weight: bold;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ffd89b;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px; 
+    color: #e67e22; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+    display: flex; 
+    justify-content: flex-end; 
+}
+
+nav ul li {
+    margin-left: 15px; 
+}
+
+nav ul li:first-child {
+    margin-left: 0; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: #e67e22;
+    background-color: #fff;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+    color: #e67e22;
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    color: #e67e22;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item ul li {
+    margin-bottom: 5px;
+}
+
+.menu-item ul li::before {
+    content: "•"; 
+    color: #e67e22;
+    margin-right: 5px;
+}
+
+.menu-item img {
+    float: right;
+    width: 150px; 
+    margin-right: 40px; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin-left: 10px; 
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    .menu-item h3 {
+        font-size: 20px;
+    }
+
+    .menu-item ul li {
+        font-size: 16px;
+    }
+}
+section {
+    display: none;
+}
+
+section:target {
+    display: block;
+}
+.logo {
+    display: flex;
+    align-items: center; 
+}
+
+.logo img {
+    width: 50px; 
+    margin-right: 10px; 
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+
+
+
+
